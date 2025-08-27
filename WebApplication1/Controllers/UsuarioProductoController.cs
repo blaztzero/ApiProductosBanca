@@ -30,7 +30,7 @@ namespace ApiUsuarios.Controllers
             var result = await _service.AsignarProductoAsync(request.User_Name, request.Pass, request.IdProducto.Value);
             if (!result) return Unauthorized("Usuario no válido o producto no existe");
 
-            return Ok("Producto asignado correctamente" + result.ToString());
+            return Ok("Producto asignado correctamente");
         }
 
         [HttpPost("quitar")]
