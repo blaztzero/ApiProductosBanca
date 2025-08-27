@@ -1,0 +1,394 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|d:\\proyectos .net\\principios solid\\apiusuarios\\webapplication1\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|solutionrelative:webapplication1\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|d:\\proyectos .net\\principios solid\\apiusuarios\\webapplication1\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|solutionrelative:webapplication1\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|d:\\proyectos .net\\principios solid\\apiusuarios\\webapplication1\\models\\usuarioproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|solutionrelative:webapplication1\\models\\usuarioproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|d:\\proyectos .net\\principios solid\\apiusuarios\\webapplication1\\services\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|solutionrelative:webapplication1\\services\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|d:\\proyectos .net\\principios solid\\apiusuarios\\webapplication1\\services\\iusuarioproductoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|solutionrelative:webapplication1\\services\\iusuarioproductoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|d:\\proyectos .net\\principios solid\\apiusuarios\\webapplication1\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|solutionrelative:webapplication1\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|d:\\proyectos .net\\principios solid\\apiusuarios\\webapplication1\\services\\usuarioproductoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|solutionrelative:webapplication1\\services\\usuarioproductoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|d:\\proyectos .net\\principios solid\\apiusuarios\\webapplication1\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|solutionrelative:webapplication1\\controllers\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|d:\\proyectos .net\\principios solid\\apiusuarios\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|d:\\proyectos .net\\principios solid\\apiusuarios\\webapplication1\\controllers\\usuarioproductocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|solutionrelative:webapplication1\\controllers\\usuarioproductocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|d:\\proyectos .net\\principios solid\\apiusuarios\\webapplication1\\repositories\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|solutionrelative:webapplication1\\repositories\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|d:\\proyectos .net\\principios solid\\apiusuarios\\webapplication1\\repositories\\usuarioproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|solutionrelative:webapplication1\\repositories\\usuarioproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|d:\\proyectos .net\\principios solid\\apiusuarios\\webapplication1\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|solutionrelative:webapplication1\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|d:\\proyectos .net\\principios solid\\apiusuarios\\webapplication1\\repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|solutionrelative:webapplication1\\repositories\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|d:\\proyectos .net\\principios solid\\apiusuarios\\webapplication1\\repositories\\iusuarioproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|solutionrelative:webapplication1\\repositories\\iusuarioproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|d:\\proyectos .net\\principios solid\\apiusuarios\\webapplication1\\dtos\\usuarioproductorequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|solutionrelative:webapplication1\\dtos\\usuarioproductorequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|d:\\proyectos .net\\principios solid\\apiusuarios\\webapplication1\\repositories\\iproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|solutionrelative:webapplication1\\repositories\\iproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|d:\\proyectos .net\\principios solid\\apiusuarios\\webapplication1\\repositories\\iusuariorespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|solutionrelative:webapplication1\\repositories\\iusuariorespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|d:\\proyectos .net\\principios solid\\apiusuarios\\webapplication1\\apiusuarios.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|solutionrelative:webapplication1\\apiusuarios.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|d:\\proyectos .net\\principios solid\\apiusuarios\\webapplication1\\dtos\\usuariologindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|solutionrelative:webapplication1\\dtos\\usuariologindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|d:\\proyectos .net\\principios solid\\apiusuarios\\webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\ApiUsuarios.csproj|solutionrelative:webapplication1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\WebApplication1.csproj|d:\\proyectos .net\\principios solid\\apiusuarios\\webapplication1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F4BE6611-FCCB-4861-A50B-2D923F552624}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 17,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioProducto.cs",
+              "DocumentMoniker": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Models\\UsuarioProducto.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\UsuarioProducto.cs",
+              "ToolTip": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Models\\UsuarioProducto.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\UsuarioProducto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T04:38:51.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Producto.cs",
+              "ToolTip": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Models\\Producto.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Producto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T04:38:17.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductoRepository.cs",
+              "DocumentMoniker": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Repositories\\ProductoRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repositories\\ProductoRepository.cs",
+              "ToolTip": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Repositories\\ProductoRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Repositories\\ProductoRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAMwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T04:36:54.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IProductoRepository.cs",
+              "DocumentMoniker": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Repositories\\IProductoRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repositories\\IProductoRepository.cs",
+              "ToolTip": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Repositories\\IProductoRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Repositories\\IProductoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T04:36:28.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UsuarioProductoRepository.cs",
+              "DocumentMoniker": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Repositories\\UsuarioProductoRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repositories\\UsuarioProductoRepository.cs",
+              "ToolTip": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Repositories\\UsuarioProductoRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Repositories\\UsuarioProductoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T04:35:36.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUsuarioProductoRepository.cs",
+              "DocumentMoniker": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Repositories\\IUsuarioProductoRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repositories\\IUsuarioProductoRepository.cs",
+              "ToolTip": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Repositories\\IUsuarioProductoRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Repositories\\IUsuarioProductoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T04:35:08.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UsuarioProductoController.cs",
+              "DocumentMoniker": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Controllers\\UsuarioProductoController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\UsuarioProductoController.cs",
+              "ToolTip": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Controllers\\UsuarioProductoController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\UsuarioProductoController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwB0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T04:33:56.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsuarioProductoService.cs",
+              "DocumentMoniker": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Services\\UsuarioProductoService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\UsuarioProductoService.cs",
+              "ToolTip": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Services\\UsuarioProductoService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\UsuarioProductoService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAwwCYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T04:32:59.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUsuarioProductoService.cs",
+              "DocumentMoniker": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Services\\IUsuarioProductoService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\IUsuarioProductoService.cs",
+              "ToolTip": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Services\\IUsuarioProductoService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\IUsuarioProductoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T04:32:23.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UsuarioProductoRequestDto.cs",
+              "DocumentMoniker": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\DTOs\\UsuarioProductoRequestDto.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\DTOs\\UsuarioProductoRequestDto.cs",
+              "ToolTip": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\DTOs\\UsuarioProductoRequestDto.cs",
+              "RelativeToolTip": "WebApplication1\\DTOs\\UsuarioProductoRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T04:31:05.565Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UsuarioLoginDto.cs",
+              "DocumentMoniker": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\DTOs\\UsuarioLoginDto.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\DTOs\\UsuarioLoginDto.cs",
+              "ToolTip": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\DTOs\\UsuarioLoginDto.cs",
+              "RelativeToolTip": "WebApplication1\\DTOs\\UsuarioLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T03:55:17.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.json",
+              "ToolTip": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\appsettings.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAACHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-23T03:09:44.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T03:08:43.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Repositories\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repositories\\AppDbContext.cs",
+              "ToolTip": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Repositories\\AppDbContext.cs",
+              "RelativeToolTip": "WebApplication1\\Repositories\\AppDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwAsAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T03:08:17.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Controllers\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\UsuariosController.cs",
+              "ToolTip": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Controllers\\UsuariosController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\UsuariosController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowDMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T03:06:50.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUsuarioService.cs",
+              "DocumentMoniker": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Services\\IUsuarioService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\IUsuarioService.cs",
+              "ToolTip": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Services\\IUsuarioService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\IUsuarioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T03:05:11.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\UsuarioService.cs",
+              "ToolTip": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Services\\UsuarioService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\UsuarioService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T03:04:33.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repositories\\UsuarioRepository.cs",
+              "ToolTip": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "WebApplication1\\Repositories\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwCIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T03:03:25.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IUsuarioRespository.cs",
+              "DocumentMoniker": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Repositories\\IUsuarioRespository.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Repositories\\IUsuarioRespository.cs",
+              "ToolTip": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Repositories\\IUsuarioRespository.cs",
+              "RelativeToolTip": "WebApplication1\\Repositories\\IUsuarioRespository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T03:02:18.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Usuario.cs",
+              "ToolTip": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\Models\\Usuario.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-23T02:59:33.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ApiUsuarios.csproj",
+              "DocumentMoniker": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\ApiUsuarios.csproj",
+              "RelativeDocumentMoniker": "WebApplication1\\ApiUsuarios.csproj",
+              "ToolTip": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\ApiUsuarios.csproj",
+              "RelativeToolTip": "WebApplication1\\ApiUsuarios.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-08-23T02:55:48.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "WebApplication1\\appsettings.Development.json",
+              "ToolTip": "D:\\proyectos .net\\Principios solid\\ApiUsuarios\\WebApplication1\\appsettings.Development.json",
+              "RelativeToolTip": "WebApplication1\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-23T02:55:04.647Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
