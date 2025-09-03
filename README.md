@@ -1,4 +1,145 @@
-API de Gestión de Usuarios y ProductosEsta es una API RESTful construida con ASP.NET Core que se encarga de gestionar información de usuarios y la asignación de productos a los mismos. La API está dividida en dos controladores principales: uno para la gestión general de usuarios y otro para la relación entre usuarios y productos.Tecnologías y ConfiguraciónLa API utiliza Entity Framework Core para la gestión de la base de datos, conectándose a SQL Server. La arquitectura del proyecto sigue el principio de Inversión de Dependencias (DIP), lo que facilita la modularidad y el testing.En el archivo Program.cs, se configuran las siguientes dependencias principales:Servicios (Services):IUsuarioService y UsuarioService: Lógica de negocio para la gestión de usuarios.IUsuarioProductoService y UsuarioProductoService: Lógica de negocio para la asignación y desasignación de productos.Repositorios (Repositories):IUsuarioRepository y UsuarioRepository: Acceso a los datos de los usuarios.IUsuarioProductoRepository y UsuarioProductoRepository: Acceso a los datos de la relación usuario-producto.IProductoRepository y ProductoRepository: Acceso a los datos de los productos.Además, el proyecto está configurado para usar Swagger/OpenAPI, lo que genera automáticamente la documentación de la API para su fácil exploración.Endpoints de la APILa API expone los siguientes endpoints para interactuar con los datos.1. Controlador de Usuarios (api/usuarios)Este controlador permite realizar operaciones CRUD (Crear, Leer, Actualizar, Borrar) sobre los usuarios, además de la funcionalidad de autenticación.Método HTTPEndpointDescripciónCuerpo de la Solicitud (Body)RespuestaGET/api/usuariosObtiene una lista de todos los usuarios registrados.No requiereUn array de objetos Usuario.GET/api/usuarios/{id}Obtiene un usuario específico por su ID.No requiereUn objeto Usuario si se encuentra, o un error 404 Not Found.POST/api/usuariosCrea un nuevo usuario.Un objeto Usuario con los datos del nuevo usuario.Un objeto Usuario con el ID asignado.PUT/api/usuarios/{id}Actualiza un usuario existente.Un objeto Usuario con los datos actualizados.204 No Content en caso de éxito.DELETE/api/usuarios/{id}Elimina un usuario por su ID.No requiere204 No Content en caso de éxito.POST/api/usuarios/loginAutentica un usuario con sus credenciales.{ "User_Name": "string", "Pass": "string" }200 OK con un objeto Usuario si las credenciales son válidas, o 401 Unauthorized si no lo son.2. Controlador de Productos de Usuario (api/usuarioproducto)Este controlador gestiona la relación de productos asignados a un usuario, validando las credenciales del usuario en cada solicitud.Método HTTPEndpointDescripciónCuerpo de la Solicitud (Body)RespuestaPOST/api/usuarioproducto/listarLista todos los productos asignados a un usuario.{ "User_Name": "string", "Pass": "string" }Un array de productos o un error 401 Unauthorized si las credenciales son inválidas.POST/api/usuarioproducto/asignarAsigna un producto a un usuario específico.{ "User_Name": "string", "Pass": "string", "IdProducto": 0 }200 OK con un mensaje de éxito. 401 Unauthorized si las credenciales son inválidas.POST/api/usuarioproducto/quitarElimina la asignación de un producto a un usuario.{ "User_Name": "string", "Pass": "string", "IdProducto": 0 }200 OK con un mensaje de éxito. 401 Unauthorized si las credenciales son inválidas.
+API de Gestión de Usuarios y Productos
+Esta es una API RESTful construida con ASP.NET Core que se encarga de gestionar información de usuarios y la asignación de productos a los mismos. La API está dividida en dos controladores principales: uno para la gestión general de usuarios y otro para la relación entre usuarios y productos.
+
+Tecnologías y Configuración
+La API utiliza Entity Framework Core para la gestión de la base de datos, conectándose a SQL Server. La arquitectura del proyecto sigue el principio de Inversión de Dependencias (DIP), lo que facilita la modularidad y el testing.
+
+En el archivo Program.cs, se configuran las siguientes dependencias principales:
+
+Servicios (Services):
+
+IUsuarioService y UsuarioService: Lógica de negocio para la gestión de usuarios.
+
+IUsuarioProductoService y UsuarioProductoService: Lógica de negocio para la asignación y desasignación de productos.
+
+Repositorios (Repositories):
+
+IUsuarioRepository y UsuarioRepository: Acceso a los datos de los usuarios.
+
+IUsuarioProductoRepository y UsuarioProductoRepository: Acceso a los datos de la relación usuario-producto.
+
+IProductoRepository y ProductoRepository: Acceso a los datos de los productos.
+
+Además, el proyecto está configurado para usar Swagger/OpenAPI, lo que genera automáticamente la documentación de la API para su fácil exploración.
+
+Endpoints de la API
+La API expone los siguientes endpoints para interactuar con los datos.
+
+1. Controlador de Usuarios (api/usuarios)
+Este controlador permite realizar operaciones CRUD (Crear, Leer, Actualizar, Borrar) sobre los usuarios, además de la funcionalidad de autenticación.
+
+Método HTTP
+
+Endpoint
+
+Descripción
+
+Cuerpo de la Solicitud (Body)
+
+Respuesta
+
+GET
+
+/api/usuarios
+
+Obtiene una lista de todos los usuarios registrados.
+
+No requiere
+
+Un array de objetos Usuario.
+
+GET
+
+/api/usuarios/{id}
+
+Obtiene un usuario específico por su ID.
+
+No requiere
+
+Un objeto Usuario si se encuentra, o un error 404 Not Found.
+
+POST
+
+/api/usuarios
+
+Crea un nuevo usuario.
+
+Un objeto Usuario con los datos del nuevo usuario.
+
+Un objeto Usuario con el ID asignado.
+
+PUT
+
+/api/usuarios/{id}
+
+Actualiza un usuario existente.
+
+Un objeto Usuario con los datos actualizados.
+
+204 No Content en caso de éxito.
+
+DELETE
+
+/api/usuarios/{id}
+
+Elimina un usuario por su ID.
+
+No requiere
+
+204 No Content en caso de éxito.
+
+POST
+
+/api/usuarios/login
+
+Autentica un usuario con sus credenciales.
+
+{ "User_Name": "string", "Pass": "string" }
+
+200 OK con un objeto Usuario si las credenciales son válidas, o 401 Unauthorized si no lo son.
+
+2. Controlador de Productos de Usuario (api/usuarioproducto)
+Este controlador gestiona la relación de productos asignados a un usuario, validando las credenciales del usuario en cada solicitud.
+
+Método HTTP
+
+Endpoint
+
+Descripción
+
+Cuerpo de la Solicitud (Body)
+
+Respuesta
+
+POST
+
+/api/usuarioproducto/listar
+
+Lista todos los productos asignados a un usuario.
+
+{ "User_Name": "string", "Pass": "string" }
+
+Un array de productos o un error 401 Unauthorized si las credenciales son inválidas.
+
+POST
+
+/api/usuarioproducto/asignar
+
+Asigna un producto a un usuario específico.
+
+{ "User_Name": "string", "Pass": "string", "IdProducto": 0 }
+
+200 OK con un mensaje de éxito. 401 Unauthorized si las credenciales son inválidas.
+
+POST
+
+/api/usuarioproducto/quitar
+
+Elimina la asignación de un producto a un usuario.
+
+{ "User_Name": "string", "Pass": "string", "IdProducto": 0 }
+
+200 OK con un mensaje de éxito. 401 Unauthorized si las credenciales son inválidas.
 
 <img width="1676" height="880" alt="image" src="https://github.com/user-attachments/assets/2a8b2883-5b9e-42d0-a7df-3e92b4c39004" />
 
